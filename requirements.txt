@@ -1,8 +1,8 @@
-fastapi==0.88.0
-uvicorn==0.20.0
-boto3==1.26.0
-PyPDF2==3.0.0
-pandas==1.5.0
-yfinance==0.2.12
-anthropic  # required for Claude model API access (add specific version if needed)
-python-dotenv==1.0.0  # for loading AWS credentials if needed from .env
+yfinance
+pandas
+fastapi
+boto3
+uvicorn
+PyPDF2
+anthropic
+botocore
