@@ -62,7 +62,7 @@ Follow these steps to run the application in Amazon SageMaker:
     ```
 
 ### 6. Access the Application
-- Open a new browser tab and navigate to `http://<NOTEBOOK_INSTANCE_IP>:8000` to access the FastAPI application. Replace `<NOTEBOOK_INSTANCE_IP>` with the public or private IP address of your SageMaker Notebook instance.
+- Open a new browser tab and navigate to `http://<NOTEBOOK_INSTANCE_IP>/jupyter/default/proxy/8000/index.html` to access the FastAPI application. Replace `<NOTEBOOK_INSTANCE_IP>` with the public or private IP address of your SageMaker Notebook instance.
 
 You can now interact with the API and use the frontend interface to upload reports, view summaries, and visualize stock data.
 
